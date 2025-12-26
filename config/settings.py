@@ -35,7 +35,6 @@ CSRF_TRUSTED_ORIGINS = ["https://*.up.railway.app"]
 # Application definition
 
 INSTALLED_APPS = [
-    'jazzmin',
     'inventory',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -123,15 +122,3 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
-JAZZMIN_UI_TWEAKS = {
-    # Light tema (ağ)
-    "theme": "flatly",
-
-    # Dark tema (qara) — cihazın dark mode-u açıq olanda avtomatik keçəcək
-    "dark_mode_theme": "darkly",
-
-    # Ağ navbar + qara sidebar (yüngül və səliqəli görünür)
-    "navbar": "navbar-white navbar-light",
-    "sidebar": "sidebar-dark-primary",
-    "accent": "accent-primary",
-}
